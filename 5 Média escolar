@@ -1,0 +1,15 @@
+# FaÃ§a um algoritmo
+print("MEDIA ESCOLAR")
+# a media ponderada das notas de 3 provas
+num1=float(input("digite a nota da prova 1:"))
+num2=float(input("digita a nota da prova 2:"))
+num3=float(input("digite a nota da prova 3:"))
+# calculo da media
+media=(num1*1 + num2*1 + num3*2)/4
+#resultado
+print("MÉDIA FINAL:", media)
+# Verificação de aprovação
+if media >= 60:
+    print("Aluno aprovado!")
+else:
+    print("Aluno reprovado!")
