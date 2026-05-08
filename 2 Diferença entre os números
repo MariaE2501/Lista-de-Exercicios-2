@@ -1,0 +1,16 @@
+#Descoberta de numero maior e diferença existente entre ambos
+print("=*= Diferença entre os numeros=*=")
+#Receber os dois números
+num1 = float(input("Digite o número:"))
+num2 = float (input("Digite o número:"))
+#Verificar qual ém o maior
+if num1 > num2:
+    print(" O primeiro numero é maior")
+elif num2 > num1:
+    print(" O segundo número é maior")
+else:
+    print(" Os dois números são iguais")
+#Diferença entre os números
+print("==Diferença entre eles==")
+diferença= abs(num1-num2)
+print(" A diferença entre os números é:", diferença)
