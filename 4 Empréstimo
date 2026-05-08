@@ -1,0 +1,10 @@
+print("Emprestimo”)
+salario = float(input("Digite o seu salário: "))
+prestacao = float(input("Digite o valor da prestação: "))
+
+limite = salario * 0.20
+
+if prestacao > limite:
+    print("Empréstimo não concedido.")
+else:
+    print("Empréstimo concedido.")
